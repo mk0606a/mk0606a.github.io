@@ -1,0 +1,41 @@
+*{box-sizing: border-box;}
+
+
+body {
+  background-color: gold;
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Bitter', sans-serif;
+  color: blue;
+}
+li {
+  color: red;
+  font-family: 'Bitter', Serif;
+  text-align: center;
+  width: 33%;
+  padding: 10px 20px right;
+  border: 2px solid teal;
+  list-style-type: none;
+}
+img {
+  height: 200px;
+  width: auto;
+  float: right;
+}
+
+#welcome {color: blue}
+#about {color: blue;}
+.animal { color: blue;}
+.animal:hover { background-color:white; }
+.mammal {color: purple;}
+.mammal::first-letter{font-size: 20px; color: black}
+.bird {color: teal;}
+.fish {color:green;}
+#salmon {color: salmon}
+
+a{ display: block;}
+a::first-letter{
+  font-size: 24px;color: blue;
+}
+a:visited {color:red}
